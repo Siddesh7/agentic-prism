@@ -12,7 +12,7 @@ python-dotenv = "1.0.0"
 yfinance = "^0.2.38"
 
 [tool.poetry.scripts]
-financial_analyst_crew = "prism_crew.main:run"
+prism_crew = "prism_crew.main:run"
 
 [build-system]
 requires = ["poetry-core"]
